@@ -1,0 +1,72 @@
+@font-face {
+  font-family: beon;
+  src: url(../fonts/beon/beon.ttf);
+}
+
+body {
+  background: #111111;
+  width: 100%;
+}
+
+.team {
+  color: #fff;
+  font-size: 50px;
+  font-family: beon;
+  width: 720px;
+  margin: 0 auto;
+  -webkit-animation: neonred 1.5s ease-in-out infinite alternate;
+  -moz-animation: neonred 1.5s ease-in-out infinite alternate;
+  animation: neonred 1.5s ease-in-out infinite alternate;
+}
+
+.saber {
+  color: #fff;
+  font-size: 50px;
+  font-family: beon;
+  width: 720px;
+  margin: 0 auto;
+  -webkit-animation: neonblue 1.5s ease-in-out infinite alternate;
+  -moz-animation: neonblue 1.5s ease-in-out infinite alternate;
+  animation: neonblue 1.5s ease-in-out infinite alternate;
+}
+
+.logo {
+  width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  width: 800px;
+  margin: 0px auto;
+	padding: 10px;
+  text: align: center;
+}
+
+li {
+  display: inline;
+  font-size: 25px;
+  font-family: beon;
+  margin: 10px;
+}
+
+@-webkit-keyframes neonred {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #f00, 0 0 70px #f00, 0 0 80px #f00, 0 0 100px #f00, 0 0 150px #f00;
+  }
+
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f00, 0 0 35px #f00, 0 0 40px #f00, 0 0 50px #f00, 0 0 75px #f00;
+  }
+}
+
+@-webkit-keyframes neonblue {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00f, 0 0 70px #00f, 0 0 80px #00f, 0 0 100px #00f, 0 0 150px #00f;
+  }
+
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00f, 0 0 35px #00f, 0 0 40px #00f, 0 0 50px #00f, 0 0 75px #00f;
+  }
+}
