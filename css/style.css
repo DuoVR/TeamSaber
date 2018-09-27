@@ -10,7 +10,6 @@ body {
 
 .team {
   color: #fff;
-  font-size: 50px;
   font-family: beon;
   width: 720px;
   margin: 0 auto;
@@ -21,7 +20,6 @@ body {
 
 .saber {
   color: #fff;
-  font-size: 50px;
   font-family: beon;
   width: 720px;
   margin: 0 auto;
@@ -34,21 +32,118 @@ body {
   width: 720px;
   margin: 0 auto;
   text-align: center;
+  font-size: 60px;
+  padding: 15px 0px;
+}
+
+.nav {
+  padding: 10px 0px;
 }
 
 ul {
   text-align: center;
   width: 800px;
   margin: 0px auto;
-	padding: 10px;
+  padding: 10px 15px;
   text: align: center;
 }
 
 li {
   display: inline;
-  font-size: 25px;
-  font-family: beon;
+  font-family: 'Montserrat', sans-serif;
   margin: 10px;
+  font-size: 18px;
+}
+
+.eventname li {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  font-family: beon;
+  font-size: 28px;
+  border-radius: 5px;
+}
+
+.eventname div {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.trophy {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-top: 20px;
+}
+
+.leftside {
+  float: left;
+  width: 40%;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.rightside {
+  float: left;
+  width: 60%;
+  font-size: 18px;
+}
+
+.scoretable {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.scoretable td {
+  padding: 5px 0px;
+}
+
+.col1 {
+  text-align: center;
+  width: 10%
+}
+
+.col2 {
+  text-align: left;
+  width: 60%
+}
+
+.col3 {
+  text-align: left;
+  width: 15%;
+}
+
+.col4 {
+  text-align: right;
+  width: 15%;
+}
+
+.gold {
+  color: #FFB900;
+}
+
+.silver {
+  color: #BFBFBF;
+}
+
+.bronze {
+  color: #C16C00;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
 }
 
 @-webkit-keyframes neonred {
