@@ -142,7 +142,7 @@ a {
   width: auto;
 }
 
-.effect-underline:hover {
+a:hover {
   border-bottom: 1px solid white;
 }
 
