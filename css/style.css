@@ -119,13 +119,8 @@ li {
   width: 60%
 }
 
-.col3 {
-  text-align: left;
-  width: 15%;
-}
-
-.col4 {
-  text-align: right;
+.col3, .col4 {
+  text-align: center;
   width: 15%;
 }
 
