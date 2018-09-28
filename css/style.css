@@ -139,6 +139,11 @@ li {
 a {
   text-decoration: none;
   color: #eee;
+  width: auto;
+}
+
+.effect-underline:hover {
+  border-bottom: 1px solid white;
 }
 
 @-webkit-keyframes neonred {
