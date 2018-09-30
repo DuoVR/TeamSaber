@@ -10,7 +10,7 @@ body {
 .team {
   color: #fff;
   font-family: beon;
-  width: 720px;
+  width: 100%;
   margin: 0 auto;
   -webkit-animation: neonred 1.5s ease-in-out infinite alternate;
   -moz-animation: neonred 1.5s ease-in-out infinite alternate;
@@ -20,7 +20,7 @@ body {
 .saber {
   color: #fff;
   font-family: beon;
-  width: 720px;
+  width: 100%;
   margin: 0 auto;
   -webkit-animation: neonblue 1.5s ease-in-out infinite alternate;
   -moz-animation: neonblue 1.5s ease-in-out infinite alternate;
@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-  width: 720px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   font-size: 60px;
@@ -41,7 +41,7 @@ body {
 
 ul {
   text-align: center;
-  width: 800px;
+  width: 100%;
   margin: 0px auto;
   padding: 10px 15px;
   text: align: center;
@@ -72,8 +72,8 @@ li {
 
 .trophy {
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
 }
 
@@ -163,4 +163,14 @@ a:hover {
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00f, 0 0 35px #00f, 0 0 40px #00f, 0 0 50px #00f, 0 0 75px #00f;
   }
+}
+
+@media only screen and (max-width: 600px) {
+    .leftside {
+        display: none;
+    }
+
+    .rightside {
+      width: 100%;
+    }
 }
