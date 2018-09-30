@@ -166,7 +166,7 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .leftside {
         display: none;
     }
@@ -178,5 +178,35 @@ a:hover {
 
     li {
       font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .leftside {
+        display: none;
+    }
+
+    .rightside {
+      width: 100%;
+      font-size: 10px;
+    }
+
+    li {
+      font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .leftside {
+        display: none;
+    }
+
+    .rightside {
+      width: 100%;
+      font-size: 8px;
+    }
+
+    li {
+      font-size: 8px;
     }
 }
