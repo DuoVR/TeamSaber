@@ -59,7 +59,6 @@ li {
   background-color: blue;
   color: white;
   font-family: beon;
-  font-size: 28px;
   border-radius: 5px;
 }
 
@@ -172,5 +171,10 @@ a:hover {
 
     .rightside {
       width: 100%;
+      font-size: 14px;
+    }
+
+    li {
+      font-size: 14px;
     }
 }
