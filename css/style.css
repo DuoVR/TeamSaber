@@ -36,38 +36,24 @@ body {
 }
 
 .nav {
-  padding: 10px 0px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 ul {
   text-align: center;
-  width: 100%;
+  width: 95%;
+  max-width: 750px;
   margin: 0px auto;
-  padding: 10px 15px;
-  text: align: center;
+  text-align: center;
 }
 
 li {
   white-space: nowrap;
   display: inline;
   font-family: 'Montserrat', sans-serif;
-  margin: 10px;
   font-size: 22px;
-}
-
-.eventname li {
-  display: inline-block;
-  background-color: blue;
-  color: white;
-  font-family: beon;
-  border-radius: 5px;
-}
-
-.eventname div {
-  width: 40px;
-  height: 40px;
-  vertical-align: middle;
-  line-height: 40px;
+  margin: 15px;
 }
 
 .trophy {
