@@ -83,19 +83,6 @@ li {
   padding-top: 20px;
 }
 
-.leftside {
-  float: left;
-  width: 40%;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.rightside {
-  float: left;
-  width: 60%;
-  font-size: 18px;
-}
-
 .scoretable {
   width: 100%;
   padding-top: 20px;
@@ -108,17 +95,12 @@ li {
 
 .col1 {
   text-align: center;
-  width: 10%
+  width: 100%
 }
 
 .col2 {
   text-align: left;
-  width: 60%
-}
-
-.col3, .col4 {
-  text-align: center;
-  width: 15%;
+  width: 20%
 }
 
 .gold {
